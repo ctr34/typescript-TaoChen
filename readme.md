@@ -15,7 +15,7 @@ I allocated the time spent among these parts in turn:
 3. The bug was found at the last 'return' of function getTax(), it's an obvious mistake, the variable 'totalFee' should be place on each branch that the program runs forward.
 4. [classMap](./classMap.ts) is an alternative I was considering to select certain class base on runtime input.
 
-#An example of request it 
+# An example of request it 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
 -d '{"city": "Gbg", "vehicle": "car", "timestamp": ["2014-02-07 06:23:27", "2013-02-07 15:27:00"]}' \
